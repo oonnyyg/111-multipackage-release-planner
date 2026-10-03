@@ -1,0 +1,11 @@
+{
+  "packages": [
+    { "name": "core", "version": "0.2.3" },
+    { "name": "web", "version": "1.9.9" }
+  ],
+  "commits": [
+    { "id": "c1", "message": "fix: shared patch", "packages": ["web", "core"] },
+    { "id": "c2", "message": "feat(api): new endpoint", "packages": ["web"] },
+    { "id": "c3", "message": "refactor!: rewrite engine\n\nBREAKING CHANGE: engine API replaced", "packages": ["core"] }
+  ]
+}
